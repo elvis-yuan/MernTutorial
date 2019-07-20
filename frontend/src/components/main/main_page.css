@@ -1,0 +1,56 @@
+#chirper-landing {
+  width: 100%;
+  display: flex;
+  height: 95vh;
+}
+
+.right-landing {
+  width: 50%;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.left-landing {
+  width: 50%;
+  background: #1da1f2;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.left-landing-box {
+  max-width: 440px;
+}
+
+.left-landing-box span {
+  color: #fff;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 48px auto;
+  position: relative;
+}
